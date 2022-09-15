@@ -819,8 +819,8 @@
 				"Savagery|Saiyan Fighter||Evil||17",
 				"Super Saiyan 3 Full-Power|Saiyan Fighter||Evil||20"
 			]
-		},
-	]
+		}
+	],
 	"classFeature": [
 		{
 			"name": "Ki",
@@ -829,12 +829,7 @@
 			"classSource": "DANDw:SF",
 			"level": 1,
 			"entries": [
-				"Starting at 1st level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of Ki Points. Your Ki points are calculated by adding the Ki Points column of the Saiyan Fighter table with your Constitution modifier. You can spend these points to fuel various Ki Features and Special Attacks. You start knowing Seven such features: Flurry of Blows, Perfect Dodge, Stand Ground, Ki Jump, Ki Surge and Ki Dash. You learn more ki features as you gain levels in this class. When you spend a Ki Point, it is unavailable until you finish a short or long rest, at the end of which you regenerate all expended ki. Some of your ki features require your target to make a saving throw to resist the feature’s effects.",
-				{
-					"type": "entries",
-					"name": "Saving Throws",
-					"entries": [
-						"The saving throw DC is calculated as follows:",
+				"Starting at 1st level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of Ki Points. Your Ki points are calculated by adding the Ki Points column of the Saiyan Fighter table with your Constitution modifier. You can spend these points to fuel various Ki Features and Special Attacks. You start knowing Seven such features: Flurry of Blows, Perfect Dodge, Stand Ground, Ki Jump, Ki Surge and Ki Dash. You learn more ki features as you gain levels in this class. When you spend a Ki Point, it is unavailable until you finish a short or long rest, at the end of which you regenerate all expended ki. Some of your ki features require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows:",
 						{
 							"type": "abilityDC",
 							"name": "Ki",
@@ -849,12 +844,7 @@
 								"str"
 							]
 						},
-						"If you are attacked while charging a feature, you must succeed a concentration saving throw."
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
+						"If you are attacked while charging a feature, you must succeed a concentration saving throw.",
 						{
 							"type": "refClassFeature",
 							"classFeature": "Flurry of Blows|Saiyan Fighter||1"
@@ -882,7 +872,7 @@
 						{
 							"type": "refClassFeature",
 							"classFeature": "Ki Dash|Saiyan Fighter||1"
-						},
+						}
 			]
 		},
 		{
@@ -994,12 +984,13 @@
 			"classSource": "DANDw:SF",
 			"level": 1,
 			"entries": [
-				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes. You gain the following benefits while you are unarmed and you aren’t wearing armor or wielding a shield:",{
+				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes. You gain the following benefits while you are unarmed and you aren’t wearing armor or wielding a shield:",
+				{
 					"entries":[
 					"You can roll a d4 in place of the normal damage of your unarmed strike. This die changes as you gain Ki Fighter levels, as shown in the Martial Arts column of the Saiyan Fighter table.",
 					"When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn"
-					}
-				]
+					]
+				}
 			]
 		},
 		{
@@ -1039,7 +1030,7 @@
 			"classSource": "DANDw:SF",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain Saiyan fighter levels, as shown in the table."
+				"Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain Saiyan fighter levels, as shown in the table.",
 				"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
 			]
 		},
@@ -1050,12 +1041,12 @@
 			"classSource": "DANDw:SF",
 			"level": 2,
 			"entries": [
-				"At 2nd level, your Saiyan blood leads to a bizarre transformation. You must have your Saiyan tail for the following to take effect. Every full moon, you must make a Wisdom or Intelligence saving throw to avoid looking at it of DC 10 + Str Or Con (Whichever is Higher) + Half Of Proficiency Bonus (Rounded Up). If you look at the moon voluntarily or fail the saving throw, your body transforms into an Oozaru. You become a giant ape, and you lose all conditions and magical effects of your choice, except Exhaustion. At the beginning of each turn, you must make an Intelligence or Wisdom saving throw (Whichever may've been used to prevent the transformation or whichever is lower if willing caused) DC 10 + Proficiency Bonus. On a failure, you must attack the closest creature within 120 feet. If a creatures wonders how this transformation is caused or occurred; they can make a DC 18 Intelligence saving throw to learn that you need your tail to transform. Your tail has 1/4 of your maximum hit points, and occupies one space of your choosing that you cover which may change at the start of your next turn. If your tail is destroyed or the night ends, you revert to your normal state and you must succeed a DC 15 Constitution saving throw. On a failure, you are unconscious for 1 hour."
+				"At 2nd level, your Saiyan blood leads to a bizarre transformation. You must have your Saiyan tail for the following to take effect. Every full moon, you must make a Wisdom or Intelligence saving throw to avoid looking at it of DC 10 + Str Or Con (Whichever is Higher) + Half Of Proficiency Bonus (Rounded Up). If you look at the moon voluntarily or fail the saving throw, your body transforms into an Oozaru. You become a giant ape, and you lose all conditions and magical effects of your choice, except Exhaustion. At the beginning of each turn, you must make an Intelligence or Wisdom saving throw (Whichever may've been used to prevent the transformation or whichever is lower if willing caused) DC 10 + Proficiency Bonus. On a failure, you must attack the closest creature within 120 feet. If a creatures wonders how this transformation is caused or occurred; they can make a DC 18 Intelligence saving throw to learn that you need your tail to transform. Your tail has 1/4 of your maximum hit points, and occupies one space of your choosing that you cover which may change at the start of your next turn. If your tail is destroyed or the night ends, you revert to your normal state and you must succeed a DC 15 Constitution saving throw. On a failure, you are unconscious for 1 hour.",
 				"At 7th Level; you will automatically succeed the Constitution Saving Throw to Remain Conscious at the End if you choose to."
 			]
 		},
 		{
-			"type": "optfeature"
+			"type": "optfeature",
 			"name": "Enhanced Training",
 			"prerequisite": "Changes {@classFeature Oozaru|Saiyan Fighter|DANDw:SF|11}",
 			"source": "SF:NT Variant Features",
@@ -1245,12 +1236,12 @@
 						"You and creatures within 20 feet of you have disadvantage on Dexterity (Stealth) checks."
 					]
 				},
-				"You may only use this transformation once, regaining use at the end of a long rest. At 15th level, you master the transformation and no longer need ki to transform into it, nor does it have a time limit."
+				"You may only use this transformation once, regaining use at the end of a long rest. At 15th level, you master the transformation and no longer need ki to transform into it, nor does it have a time limit.",
 				"This transformation lasts for 5 minutes, or until you dismiss it as a bonus action. The transformation ends automatically if you are reduced to 0 hit points or ki points, or go unconscious."
 			]
 		},
 		{
-			"type": "optfeature"
+			"type": "optfeature",
 			"name": "Trained Fighter",
 			"prerequisite": "Changes {@classFeature Super Saiyan|Saiyan Fighter|DANDw:SF|11}",
 			"source": "SF:NT Variant Features",
@@ -1266,9 +1257,9 @@
 					"items": [
 						"You may reroll one damage die on your turn and must use the new roll.",
 						"You are immune to the effects of extreme weather as described in chapter 5 of the Dungeon Master’s Guide.",
-						"You gain proficiency in the Athletics skill, and if you already have proficiency in it, your proficiency bonus is doubled for any Strength (Athletics) check you make.",
+						"You gain proficiency in the Athletics skill, and if you already have proficiency in it, your proficiency bonus is doubled for any Strength (Athletics) check you make."
 					]
-				},
+				}
 			]
 		},
 		{
@@ -1359,11 +1350,11 @@
 						"Your Movement and Flying increase by 5 feet",
 						"Ranged ki attacks deal 1 damage die extra of lightning damage."
 					]
-				},
+				}
 			]
 		},
 		{
-			"type": "optfeature"
+			"type": "optfeature",
 			"name": "Retaliatory Strike",
 			"prerequisite": "Changes {@classFeature Super Saiyan 2|Saiyan Fighter|DANDw:SF|18}",
 			"source": "SF:NT Variant Features",
@@ -1414,11 +1405,11 @@
 						"Your Constitution decreases by -2.",
 						"Your aura increases by 5 feet."
 					]
-				},
+				}
 			]
 		},
 		{
-			"type": "optfeature"
+			"type": "optfeature",
 			"name": "Ki Peak",
 			"prerequisite": "Changes {@classFeature Super Saiyan 3|Saiyan Fighter|DANDw:SF|18}",
 			"source": "SF:NT Variant Features",
@@ -1434,9 +1425,9 @@
 					"items": [
 						"At the start of your turn, you gain 10 temporary hit points and you regain 1 ki point.",
 						"You can not have disadvantage on attack rolls with your unarmed strikes or with ranged spell attacks with Ki Blast and subclass techniques.",
-						"You may use this a second time without taking a long rest if you are attacking a CR 21 or greater creature at your DMs discretion.",
+						"You may use this a second time without taking a long rest if you are attacking a CR 21 or greater creature at your DMs discretion."
 					]
-				},
+				}
 			]
 		},
 		{
@@ -1460,12 +1451,12 @@
 			"subclassSource": "DANDw:SF",
 			"level": 3,
 			"entries": [
-				"Royal Saiyans, as the name would imply, are Saiyans of royal decent. They often view others as lesser warriors simply by not being royal, even other Saiyans. They have been known to murder allies simply for underperforming in combat, and view others as either subjects or corpses."
-			],
-			{
+				"Royal Saiyans, as the name would imply, are Saiyans of royal decent. They often view others as lesser warriors simply by not being royal, even other Saiyans. They have been known to murder allies simply for underperforming in combat, and view others as either subjects or corpses.",
+				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Superior Conditioning|Saiyan Fighter||Royal||3"
-			},
+				}
+			]
 		},
 		{
 			"name": "Superior Conditioning",
@@ -1533,6 +1524,7 @@
 			"subclassSource": "DANDw:SF",
 			"level": 11,
 			"header": 2,
+			"entries":[
 			{
 				"type": "quote",
 				"entries":[
@@ -1540,7 +1532,8 @@
 				],
 				"by": "Vegeta",
 				"from": "Dragon Ball Z: Buu Saga"
-			},
+			}
+			],
 			"entries": [
 				"{@i 11th-level Royal feature}",
 				"At 11th level, you gain immunity to mind control effects such as charm and fear."
@@ -1587,6 +1580,6 @@
 				"{@i 20th-level Royal feature}",
 				"At 20th level, as a full round action, you may charge up and release a massive self sacrificing blast of ki from your body. Every creature in a 240 feet + 20 feet for every point of ki radius takes the amount of ki you have remaining x 8d20 damage. Creatures can not have immunity, resistance, or vulnerability to this damage. After this feature is used, you die instantly and your form crumples to ash. You may only be revived using True Resurrection or a Wish spell."
 			]
-		},
-	],
+		}
+	]
 }
