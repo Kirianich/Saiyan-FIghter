@@ -1,0 +1,1592 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DANDw:SF",
+				"full": "Saiyan Fighter",
+				"abbreviation": "SF",
+				"authors": [
+					"DANDwiki"
+				],
+				"url": "https://www.dandwiki.com/wiki/Saiyan_Fighter,_2nd_Variant_(5e_Class)",
+				"version": "2022.09.15"
+			}
+		],
+		"optionalFeatureTypes": {
+			
+		},
+		"dateAdded": 1663245595,
+		"dateLastModified": 1663245595
+	},
+	"class": [
+		{
+			"name": "Saiyan Fighter",
+			"source": "DANDw:SF",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"str",
+				{
+					"choose":{
+						"from":[
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"none"
+				],
+				"weapons": [
+					"simple"
+				],
+				"tools": [
+					"none"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"acrobatics",
+								"insight",
+								"intimidation",
+								"perception",
+								"nature",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item light crossbow|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) any two {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} or (b) a {@item scholar's pack|PHB}",
+					"(a) {@item dungeoneer's pack|PHB} or (b) {@item explorer's pack|PHB}",
+					"if you are using starting wealth, you have 2d4 x 10 gp in funds"
+				],
+				"defaultData": [
+					{
+						"a": [
+							"light crossbow|phb",
+							"Crossbow Bolts (20)|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						],
+						"b": [
+							"scholar's pack|PHB"
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|PHB"
+						],
+						"b": [
+							"explorer's pack|PHB"
+						]
+					},
+					{
+						"_": [
+							
+						]
+					}
+				]
+			},
+			"fluff": [
+				{
+					"name": "Saiyan Fighter",
+					"type": "section",
+					"entries": [
+						"Saiyan fighers are those trained in the art of destroying their foes with devastating blows and powerful ki attacks. These expert warriors originated from the planet Vegeta, where constant fights and immense gravity are common place. They are fighters at heart, absolutely vicious in battle, and are quick to anger.",
+						{
+							"type": "entries",
+							"name": "Creating a Saiyan Fighter",
+							"entries": [
+								"When making a saiyan figher, think about how you grew up. Were you trained since childhood to be a fighter? Or do you have other interests mixed into your life? Think about what goals you would have. Do you want to become powerful to gain something, protect someone, or do you just want to fight strong opponents?",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a saiyan fighter quickly by following these suggestions. First, choose the saiyan race. Second, Strength should be your highest ability score, followed by Dexterity, then Constitution."
+									]
+								}
+							]
+						}
+					],
+					"source": "DANDw:SF",
+					"page": 1
+				}
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 10
+									}
+								]
+							}
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"Ki Points",
+						"Flying Speed",
+						"Unarmored Movement"
+					],
+					"rows": [
+						[
+							1,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							}
+						],
+						[
+							2,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							3,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							4,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							5,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							6,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							7,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							8,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							9,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							10,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							11,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							12,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							13,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							14,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							15,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							16,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							17,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							18,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							19,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							20,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							},
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Ki|Saiyan Fighter|DANDw:SF|1",
+				"Martial Arts|Saiyan Fighter|DANDw:SF|1",
+				"Unarmored Defense|Saiyan Fighter|DANDw:SF|1",
+				"Ki Blast|Saiyan Fighter|DANDw:SF|1",
+				"Training|Saiyan Fighter|DANDw:SF|2",
+				"Unarmored Movement|Saiyan Fighter|DANDw:SF|2",
+				"Oozaru|Saiyan Fighter|DANDw:SF|2",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Saiyan Fighter|DANDw:SF|4",
+				"Extra Attack|Saiyan Fighter|DANDw:SF|5",
+				"Energy Detection|Saiyan Fighter|DANDw:SF|5",
+				"Ki-empowered Strikes|Saiyan Fighter|DANDw:SF|6",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Saiyan Fighter|DANDw:SF|7",
+				"Flight|Saiyan Fighter|DANDw:SF|7",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Saiyan Fighter|DANDw:SF|8",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|9",
+					"gainSubclassFeature": true
+				},
+				"Ki Charge|Saiyan Fighter|DANDw:SF|10",
+				"Super Saiyan|Saiyan Fighter|DANDw:SF|11",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Saiyan Fighter|DANDw:SF|12",
+				"Limit Break|Saiyan Fighter|DANDw:SF|13",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|14",
+					"gainSubclassFeature": true
+				},
+				"Endurable|Saiyan Fighter|DANDw:SF|15",
+				"Ability Score Improvement|Saiyan Fighter|DANDw:SF|16",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|17",
+					"gainSubclassFeature": true
+				},
+				"Super Saiyan 2|Saiyan Fighter|DANDw:SF|18",
+				"Ability Score Improvement|Saiyan Fighter|DANDw:SF|19",
+				"Super Saiyan 3|Saiyan Fighter|DANDw:SF|20",
+				"Golden Oozaru|Saiyan Fighter|DANDw:SF|20",
+				{
+					"classFeature": "Saiyan Archetype|Saiyan Fighter|DANDw:SF|20",
+					"gainSubclassFeature": true
+				}
+			],
+			"subclassTitle": "Saiyan Archetype"
+		}
+	],
+	"subclass": [
+		{
+			"name": "Royal",
+			"shortName": "Royal",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Superior Conditioning|Saiyan Fighter||Royal||3",
+				"Galick Gun|Saiyan Fighter||Royal||6",
+				"Gravity Rune Training|Saiyan Fighter||Royal||7",
+				"Power Ball|Saiyan Fighter||Royal||9",
+				"Saiyan Pride|Saiyan Fighter||Royal||11",
+				"Big Bang Attack|Saiyan Fighter||Royal||14",
+				"Final Flash|Saiyan Fighter||Royal||17",
+				"Final Sacrifice|Saiyan Fighter||Royal||20"
+			]
+		},
+		{
+			"name": "Warrior",
+			"shortName": "Warrior",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Meteor Combo|Saiyan Fighter||Warrior||3",
+				"Kamehameha|Saiyan Fighter||Warrior||6",
+				"Dragon Fist|Saiyan Fighter||Warrior||7",
+				"Spirit Bomb|Saiyan Fighter||Warrior||9",
+				"Martial Arts Genius|Saiyan Fighter||Warrior||14",
+				"Spirit Saiyan|Saiyan Fighter||Warrior||17",
+				"Universal Spirit Bomb|Saiyan Fighter||Warrior||20"
+			]
+		},
+		{
+			"name": "Legend",
+			"shortName": "Legend",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Powerful Ki|Saiyan Fighter||Legend||3",
+				"Echoes of the Legend|Saiyan Fighter||Legend||6",
+				"Eraser Cannon|Saiyan Fighter||Legend||7",
+				"True Demon|Saiyan Fighter||Legend||9",
+				"Legendary Super Saiyan|Saiyan Fighter||Legend||14",
+				"Overflowing Power|Saiyan Fighter||Legend||17",
+				"Blast Meteor|Saiyan Fighter||Legend||20"
+			]
+		},
+		{
+			"name": "Successor",
+			"shortName": "Successor",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Masenko|Saiyan Fighter||Successor||3",
+				"Trained Ki|Saiyan Fighter||Successor||6",
+				"Flashes of Rage|Saiyan Fighter||Successor||7",
+				"Hidden Ki|Saiyan Fighter||Successor||9",
+				"Potential Unlocked|Saiyan Fighter||Successor||11",
+				"Tears of Rage|Saiyan Fighter||Successor||14",
+				"Mystical Ki|Saiyan Fighter||Successor||17",
+				"Mystical Ki Fully Unlocked|Saiyan Fighter||Successor||20"
+			]
+		},
+		{
+			"name": "Traveler",
+			"shortName": "Traveler",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Ki-Blade|Saiyan Fighter||Traveler||3",
+				"Burning Attack|Saiyan Fighter||Traveler||6",
+				"Spirit of Vengeance|Saiyan Fighter||Traveler||7",
+				"Finish Buster|Saiyan Fighter||Traveler||9",
+				"Super Saiyan Grade 3|Saiyan Fighter||Traveler||14",
+				"Sword of Hope|Saiyan Fighter||Traveler||17",
+				"Super Saiyan Rage|Saiyan Fighter||Traveler||20"
+			]
+		},
+		{
+			"name": "Soldier",
+			"shortName": "Soldier",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Unbridled Oozaru|Saiyan Fighter||Soldier||3",
+				"Rebellion Spear|Saiyan Fighter||Soldier||6",
+				"Rising Strength|Saiyan Fighter||Soldier||7",
+				"Deflection|Saiyan Fighter||Soldier||9",
+				"Oozary Blast|Saiyan Fighter||Soldier||14",
+				"Time-Breaker|Saiyan Fighter||Soldier||17",
+				"Visions of the Future|Saiyan Fighter||Soldier||20"
+			]
+		},
+		{
+			"name": "Crusher",
+			"shortName": "Crusher",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Crusher Corp|Saiyan Fighter||Crusher||3",
+				"Spread-Shot Retreat|Saiyan Fighter||Crusher||6",
+				"Sudden Storm|Saiyan Fighter||Crusher||7",
+				"Kill Driver|Saiyan Fighter||Crusher||9",
+				"Tree of Might Seed|Saiyan Fighter||Crusher||14",
+				"Crusher Corp Captain|Saiyan Fighter||Crusher||17",
+				"Fully Unleashed Tree of Might|Saiyan Fighter||Crusher||20"
+			]
+		},
+		{
+			"name": "Brute",
+			"shortName": "Brute",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Heavy Finish|Saiyan Fighter||Brute||3",
+				"Arm Break|Saiyan Fighter||Brute||6",
+				"Break Cannon|Saiyan Fighter||Brute||7",
+				"Saibamen|Saiyan Fighter||Brute||9",
+				"Blazing Storm|Saiyan Fighter||Brute||14",
+				"Double Sunday|Saiyan Fighter||Brute||17",
+				"Saibamaster|Saiyan Fighter||Brute||20"
+			]
+		},
+		{
+			"name": "Brute",
+			"shortName": "Brute",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Heavy Finish|Saiyan Fighter||Brute||3",
+				"Arm Break|Saiyan Fighter||Brute||6",
+				"Break Cannon|Saiyan Fighter||Brute||7",
+				"Saibamen|Saiyan Fighter||Brute||9",
+				"Blazing Storm|Saiyan Fighter||Brute||14",
+				"Double Sunday|Saiyan Fighter||Brute||17",
+				"Saibamaster|Saiyan Fighter||Brute||20"
+			]
+		},
+		{
+			"name": "Evil Saiyan",
+			"shortName": "Evil",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "Dandw:SF",
+			"subclassFeatures": [
+				"Dèsastre Claw|Saiyan Fighter||Evil||3",
+				"Bloodlust|Saiyan Fighter||Evil||6",
+				"Shadow Tail|Saiyan Fighter||Evil||7",
+				"Dèsastre Eraser|Saiyan Fighter||Evil||9",
+				"Super Saiyan Berserk|Saiyan Fighter||Evil||14",
+				"Savagery|Saiyan Fighter||Evil||17",
+				"Super Saiyan 3 Full-Power|Saiyan Fighter||Evil||20"
+			]
+		},
+	]
+	"classFeature": [
+		{
+			"name": "Ki",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of Ki Points. Your Ki points are calculated by adding the Ki Points column of the Saiyan Fighter table with your Constitution modifier. You can spend these points to fuel various Ki Features and Special Attacks. You start knowing Seven such features: Flurry of Blows, Perfect Dodge, Stand Ground, Ki Jump, Ki Surge and Ki Dash. You learn more ki features as you gain levels in this class. When you spend a Ki Point, it is unavailable until you finish a short or long rest, at the end of which you regenerate all expended ki. Some of your ki features require your target to make a saving throw to resist the feature’s effects.",
+				{
+					"type": "entries",
+					"name": "Saving Throws",
+					"entries": [
+						"The saving throw DC is calculated as follows:",
+						{
+							"type": "abilityDC",
+							"name": "Ki",
+							"attributes": [
+								"str"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Ki",
+							"attributes": [
+								"str"
+							]
+						},
+						"If you are attacked while charging a feature, you must succeed a concentration saving throw."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Flurry of Blows|Saiyan Fighter||1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Perfect Dodge|Saiyan Fighter||1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Stand Ground|Saiyan Fighter||1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Exchange Blows|Saiyan Fighter||1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Ki Jump|Saiyan Fighter||1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Ki Surge|Saiyan Fighter||1"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Ki Dash|Saiyan Fighter||1"
+						},
+			]
+		},
+		{
+			"name": "Flurry of Blows",
+			"source": "PHB",
+			"page": 76,
+			"srd": true,
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Immediately after you take the {@action Attack} action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+			]
+		},
+		{
+			"name": "Perfect Dodge",
+			"source": "DANDw:SF",
+			"srd": true,
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"You can spend 1 ki point to take the {@action Dodge} as a bonus action on your turn. Due to your readiness to dodge your enemies have disadvantage on attacking you until your next turn."
+			]
+		},
+		{
+			"name": "Stand Ground",
+			"source": "DANDw:SF",
+			"srd": true,
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"You can spend 1 ki point to guard as a bonus action on your turn. While guarding you receive half damage from all those that hit you, however you cannot move from that spot until your next turn."
+			]
+		},
+		{
+			"name": "Exchange Blows",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"When you are attacked, you can spend 2 ki as a reaction to make an unarmed attack."
+			]
+		},
+		{
+			"name": "Ki Jump",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"You may spend 1 Ki point and use a bonus action to make a jump kick at an enemy 30 feet or less away, making one unarmed strike."
+			]
+		},
+		{
+			"name": "Ki Surge",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"You may spends 10 Ki points to activate Ki Surge, letting you have another action on your turn."
+			]
+		},
+		{
+			"name": "Ki Dash",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"You may spend 2 Ki points and forfeiting your action and bonus action to Dash forwards at 4x your movement speed, passing through enemies with them taking opportunity attacks at disadvantage."
+			]
+		},
+		{
+			"name": "Martial Arts",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"entries": [
+				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes. You gain the following benefits while you are unarmed and you aren’t wearing armor or wielding a shield:",{
+					"entries":[
+					"You can roll a d4 in place of the normal damage of your unarmed strike. This die changes as you gain Ki Fighter levels, as shown in the Martial Arts column of the Saiyan Fighter table.",
+					"When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn"
+					}
+				]
+			]
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"entries": [
+				"While not wearing armor your AC equals 10 + Strength Modifier + Dexterity Modifier."
+			]
+		},
+		{
+			"name": "Ki Blast",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 1,
+			"entries": [
+				"At 1st level you can manifest a Ki blast from either hand at any single opponent within range make a ranged attack for 1d8 + Strength modifier. This spell's damage is force damage and is increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8). The range of this attack is equal to 30 ft. plus your Flight Speed, as shown in the Flight Speed column of the Ki Fighter chart. As an action rather than attacking, you may begin charging the ki blast and increase the damage by 1d8 per round that it is charged. This will progressively get stronger in terms of damage and increase per charge 2d8 at 5th Level, 3d8 at 11th level, and 4d8 at 17th Level."
+			]
+		},
+		{
+			"name": "Training",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you can take ten hours to train and make a DC 10 + Half of Proficiency Bonus (Rounded Down) + Your Constitution Modifier of an Athletics Check. This training must be all at once. If successful and after the training is complete, either your Strength, Dexterity, Wisdom, or Constitution increases by +2 for 4d20 hours. If you train again before the previous training bonus has worn off, you may redistribute the +2 towards a different stat or convert them into +1s in two stats but regardless of the choice - The time limit is reset however you can only benefit from one training session at a time."
+			]
+		},
+		{
+			"name": "Unarmored Movement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain Saiyan fighter levels, as shown in the table."
+				"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+			]
+		},
+		{
+			"name": "Oozaru",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 2,
+			"entries": [
+				"At 2nd level, your Saiyan blood leads to a bizarre transformation. You must have your Saiyan tail for the following to take effect. Every full moon, you must make a Wisdom or Intelligence saving throw to avoid looking at it of DC 10 + Str Or Con (Whichever is Higher) + Half Of Proficiency Bonus (Rounded Up). If you look at the moon voluntarily or fail the saving throw, your body transforms into an Oozaru. You become a giant ape, and you lose all conditions and magical effects of your choice, except Exhaustion. At the beginning of each turn, you must make an Intelligence or Wisdom saving throw (Whichever may've been used to prevent the transformation or whichever is lower if willing caused) DC 10 + Proficiency Bonus. On a failure, you must attack the closest creature within 120 feet. If a creatures wonders how this transformation is caused or occurred; they can make a DC 18 Intelligence saving throw to learn that you need your tail to transform. Your tail has 1/4 of your maximum hit points, and occupies one space of your choosing that you cover which may change at the start of your next turn. If your tail is destroyed or the night ends, you revert to your normal state and you must succeed a DC 15 Constitution saving throw. On a failure, you are unconscious for 1 hour."
+				"At 7th Level; you will automatically succeed the Constitution Saving Throw to Remain Conscious at the End if you choose to."
+			]
+		},
+		{
+			"type": "optfeature"
+			"name": "Enhanced Training",
+			"prerequisite": "Changes {@classFeature Oozaru|Saiyan Fighter|DANDw:SF|11}",
+			"source": "SF:NT Variant Features",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 2,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 2nd-level Saiyan Fighter {@variantrule optional class features|tce|optional feature}}",
+				"At 2nd level, your training regiment has been perfected. You may distribute an additional temporary +1 to either your Strength, Dexterity, Wisdom, or Constitution ability score from {@classFeature Training|Saiyan Fighter||2}."
+			]
+		},
+		{
+			"name": "Saiyan Archetype",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 3,
+			"entries": [
+				"Upon reaching the 3rd level Saiyan Fighters must choose an archetype. You gain additional features at 6th, 7th, 9th, 14th, 17th and 20th level"
+			]
+		},
+		{
+			"name": "Ability Score Increase",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+			]
+		},
+		{
+			"name": "Energy Detection",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you have advantage on Perception checks for tracking down another creature, as long as they are still alive and fully organic."
+			]
+		},
+		{
+			"name": "Ki-Empowered Strikes",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Ability Score Increase",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 6,
+			"entries": [
+				"When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Saiyan Archetype Feature",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain one feature granted by your Saiyan Archetype"
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 7,
+			"entries": [
+				"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon’s lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Flight",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 7,
+			"entries": [
+				"At 7th level you gain the ability to use your Ki to fly or levitate short distances. As you gain levels 10th, 15th, 17th, and 20th the distance you may travel increases. You can activate this technique as a bonus action. This technique remains active until you either run out of Ki points or choose to deactivate it as another bonus action. You must have at least 1 Ki point to activate this ability, as you gain levels past 7th,the cost of maintaining the flight goes down extends by an additional turn, at level 8 you only spend ki every other turn, at level 9 every third turn etc."
+			]
+		},
+		{
+			"name": "Oozaru Improvement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 7,
+			"entries": [
+				"At 7th Level; you will automatically succeed the Constitution Saving Throw to Remain Conscious at the End if you choose to."
+			]
+		},
+		{
+			"name": "Saiyan Archetype Feature",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain one feature granted by your Saiyan Archetype"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "MFOV:A",
+			"className": "Alchemist",
+			"classSource": "MFOV:A",
+			"level": 8,
+			"entries": [
+				"When you reach 8th, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Unarmored Movement Improvement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 9,
+			"entries": [
+				"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+			]
+		},
+		{
+			"name": "Saiyan Archetype Feature",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 9,
+			"entries": [
+				"At 9th level, you gain one feature granted by your Saiyan Archetype"
+			]
+		},
+		{
+			"name": "Ki Charge",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 10,
+			"entries": [
+				"At 10th level, you can regain ki. In place of a turn, you can regain an amount of ki using your unarmed damage die. You regain use of this feature at the end of a long rest."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 10,
+			"entries": [
+				"When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Super Saiyan",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain the Super Saiyan transformation. You can expend 2 ki points to transform as a bonus action to enter this form. While a Super Saiyan, your now fiery golden hair stands on end, your irises and pupils become a pale cyan, and you gain a visible ki aura. Optionally, you may talk with your DM on how you unlock this transformation, even with the possibility of gaining it earlier than level 11. While transformed, you gain the following features:",
+				{
+					"type": "list",
+					"items": [
+						"Your unarmed strikes deal +1 damage die for every base existing die.",
+						"Your Strength, Dexterity, and Constitution increases by +2 as does its maximum.",
+						"Your aura radiates bright light for 10 feet and dim light for another 10 feet.",
+						"You and creatures within 20 feet of you have disadvantage on Dexterity (Stealth) checks."
+					]
+				},
+				"You may only use this transformation once, regaining use at the end of a long rest. At 15th level, you master the transformation and no longer need ki to transform into it, nor does it have a time limit."
+				"This transformation lasts for 5 minutes, or until you dismiss it as a bonus action. The transformation ends automatically if you are reduced to 0 hit points or ki points, or go unconscious."
+			]
+		},
+		{
+			"type": "optfeature"
+			"name": "Trained Fighter",
+			"prerequisite": "Changes {@classFeature Super Saiyan|Saiyan Fighter|DANDw:SF|11}",
+			"source": "SF:NT Variant Features",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 11,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 11nth-level Saiyan Fighter {@variantrule optional class features|tce|optional feature}}",
+				"Starting at 11th level, you have become an expert martial artist, and through training, your body and mind have become increasing hardened and astute, granting you the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"You may reroll one damage die on your turn and must use the new roll.",
+						"You are immune to the effects of extreme weather as described in chapter 5 of the Dungeon Master’s Guide.",
+						"You gain proficiency in the Athletics skill, and if you already have proficiency in it, your proficiency bonus is doubled for any Strength (Athletics) check you make.",
+					]
+				},
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Limit Break",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 13,
+			"entries": [
+				"At 13th level, you can push yourself past your limits. Your Strength, Dexterity, Wisdom, and Constitution maximums increase by +2. When you are under 1/4 of your hit point maximum, your Strength, Dexterity, Wisdom and Constitution increases by +2, to a maximum of 24."
+			]
+		},
+		{
+			"name": "Saiyan Archetype Feature",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain one feature granted by your Saiyan Archetype"
+			]
+		},
+		{
+			"name": "Endurable",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 15,
+			"entries": [
+				"Starting at 15th level, you have advantage on saving throws against being poisoned, petrified, and blinded and you gain advantage on your next unarmed attack against a creature that attempts to poison, petrify, or blind you."
+			]
+		},
+		{
+			"name": "Super Saiyan Improvement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 15,
+			"entries": [
+				" At 15th level, you master the transformation and no longer need ki to transform into it, nor does it have a time limit"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Saiyan Archetype Feature",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain one feature granted by your Saiyan Archetype"
+			]
+		},
+		{
+			"name": "Super Saiyan 2",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 18,
+			"entries": [
+				"At 18th level, you can transcend the power of a Super Saiyan. You can transform from Super Saiyan 1 to 2 for 1 ki point as a bonus action. Leaving your Super Saiyan 1 form no longer requires a bonus action. Your hair becomes swept back by the immense force of your ki, and your aura gains electric sparks. This form lasts for 1 minute, after which you return to Super Saiyan. While in this form, you gain the following benefits in addition to those of Super Saiyan 1:",
+				{
+					"type": "list",
+					"items": [
+						"Your unarmed strikes deal +1 damage die for every base existing die.",
+						"Your aura increases by 5 feet.",
+						"Your Strength, Dexterity, and Constitution increases by +2 as does its maximum.",
+						"You gain proficiency in Constitution saving throws.",
+						"Your Movement and Flying increase by 5 feet",
+						"Ranged ki attacks deal 1 damage die extra of lightning damage."
+					]
+				},
+			]
+		},
+		{
+			"type": "optfeature"
+			"name": "Retaliatory Strike",
+			"prerequisite": "Changes {@classFeature Super Saiyan 2|Saiyan Fighter|DANDw:SF|18}",
+			"source": "SF:NT Variant Features",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 18,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 18nth-level Saiyan Fighter {@variantrule optional class features|tce|optional feature}}",
+				"Starting at 18th level, whenever you use the {@classFeature Stand Ground|Saiyan Fighter|DANDw:SF|1} or {@classFeature Perfect Dodge|Saiyan Fighter|DANDw:SF|1} features as a bonus action, you gain an additional reaction, in which you may shoot a Ki Blast or make an unarmed strike against the creature that made an attack against you."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Saiyan Archetype Feature",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 20,
+			"entries": [
+				"At 20th level, you gain one feature granted by your Saiyan Archetype"
+			]
+		},
+		{
+			"name": "Super Saiyan 3",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 20,
+			"entries": [
+				"At 20th level, you gain the ability to go even further beyond. While in this form, your hair extends to just below your waist, and you lose your eyebrows. You can enter the Super Saiyan 3 form as an action for 3 ki point if you are already in Super Saiyan 2. You must spend 2 ki points every round after to maintain this form. You can not enter this form while below half of your total ki, but it can be maintained past this limit. You return to Super Saiyan 2 as a bonus action or when you are reduced to 0 ki points. While in this form, you gain the following benefits in addition to those of Super Saiyan 2.",
+				{
+					"type": "list",
+					"items": [
+						"Your unarmed strikes deal +1 damage die for every base existing die.",
+						"Your flying speed increases by 10 feet.",
+						"All abilities that use ki deal +1 damage die.",
+						"Your Strength and Dexterity increases by +2 as does its maximum.",
+						"Your Constitution decreases by -2.",
+						"Your aura increases by 5 feet."
+					]
+				},
+			]
+		},
+		{
+			"type": "optfeature"
+			"name": "Ki Peak",
+			"prerequisite": "Changes {@classFeature Super Saiyan 3|Saiyan Fighter|DANDw:SF|18}",
+			"source": "SF:NT Variant Features",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 20,
+			"isClassFeatureVariant": true,
+			"entries": [
+				"{@i 20nth-level Saiyan Fighter {@variantrule optional class features|tce|optional feature}}",
+				"Starting at 20th level, you have honed your ki to the point of perfection, allowing you to enter a state of unrivaled power. As a bonus action, you may enter Ki Peak for 1 minute. You regain use of this feature after you finish a long rest. While in Ki Peak, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"At the start of your turn, you gain 10 temporary hit points and you regain 1 ki point.",
+						"You can not have disadvantage on attack rolls with your unarmed strikes or with ranged spell attacks with Ki Blast and subclass techniques.",
+						"You may use this a second time without taking a long rest if you are attacking a CR 21 or greater creature at your DMs discretion.",
+					]
+				},
+			]
+		},
+		{
+			"name": "Golden Oozaru",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"level": 20,
+			"entries": [
+				"At 20th level, you gain full access to your Oozaru power. You can benefit from both Oozaru and any Super Saiyan form(s) simultaneously. You have disadvantage on saves to not attacking the closest creature while benefiting from both forms. The Golden Oozaru will have Maximum Strength, Dexterity, and Constitution scores of 30 regardless of any effects which would decrease them."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Royal",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 3,
+			"entries": [
+				"Royal Saiyans, as the name would imply, are Saiyans of royal decent. They often view others as lesser warriors simply by not being royal, even other Saiyans. They have been known to murder allies simply for underperforming in combat, and view others as either subjects or corpses."
+			],
+			{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Superior Conditioning|Saiyan Fighter||Royal||3"
+			},
+		},
+		{
+			"name": "Superior Conditioning",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Royal feature}",
+				"At 3rd level, your royal lineage tailors you to become the perfect warrior. You may gain your proficiency in Acrobatics and Athletics. You also gain +1 to attack rolls with your Marital Arts."
+			]
+		},
+		{
+			"name": "Galick Gun",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Royal feature}",
+				"At 6th level, you gain access to the Galick Gun, a beam that rivals the Kamehameha. It takes 1.5 turns to charge. It fires in a 60ft long and 20ft wide line. Every creature in its path must make a Constitution saving throw. If they fail, they take 8d10 radiant damage, but if they succeed they take half damage. You can expend 1 additional ki to increase this damage by 2d10 at 9th, 11th, and 17th Level. Each additional ki increases its charge time by 0.5 turns. (Costs 5 ki points+1 for each additional round charging)"
+			]
+		},
+		{
+			"name": "Gravity Rune Training",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"{@i 7th-level Royal feature}",
+				"At 7th Level, your royal status allowed you to increase the benefits of training. You gain an additional +1 to attack rolls with your Martial Arts after training for a full 20 hours. In addition, your proficiency in both Acrobatics and Athletics has been furthered, you may double your proficiency bonus in both of those skills."
+			]
+		},
+		{
+			"name": "Power Ball",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"{@i 9th-level Royal feature}",
+				"At 9th level, you can create a Power Ball. This ball replicates the Blutz waves that a full moon emits, transforming any Saiyans within 120 feet into an Oozaru. Every non-Saiyan creature within 120 feet has advantage on their first damage roll each turn. It can be thrown up to 60 feet in any direction where it hovers for 1 minute, until you ordered it to return to you, or it is destroyed. It has 12 AC and 10 hit points. (Costs 6 ki points)",
+				"Additionally, you no longer need to make saving throws to control your Oozaru form, even in the event of a full moon."
+			]
+		},
+		{
+			"name": "Saiyan Pride",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 11,
+			"header": 2,
+			{
+				"type": "quote",
+				"entries":[
+					"You may have invaded my mind and my body, but there is one thing a Saiyan always keeps, his PRIDE!!!"
+				],
+				"by": "Vegeta",
+				"from": "Dragon Ball Z: Buu Saga"
+			},
+			"entries": [
+				"{@i 11th-level Royal feature}",
+				"At 11th level, you gain immunity to mind control effects such as charm and fear."
+			]
+		},
+		{
+			"name": "Big Bang Attack",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Royal feature}",
+				"At At 14th level, you learn the Big Bang Attack. You fire a ki blast up to 120ft that deals 12d10 radiant damage. Every creature within a 30ft radius of the target is hit and must make a Dexterity save, taking half damage on a success. This damage decreases by 1 die for every 5 feet away from the initial target they are. (Costs 10 ki points)"
+			]
+		},
+		{
+			"name": "Final Flash",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Royal feature}",
+				"At 17th level, you can fire the Final Flash. It must charge for one turn. This attack fires out a massive ki blast that is 120ft long and 60ft wide. This attack costs your all current ki points. Every creature in range must make a Constitution saving throw. On a fail, they take (ki spent x 2)d20 radiant damage. On a success, they take half. This circumvents features that reduce all/half effects to half/none. You take 1d6-your Constitution modifier levels of exhaustion immediately after using this."
+			]
+		},
+		{
+			"name": "Final Sacrifice",
+			"source": "DANDw:SF",
+			"className": "Saiyan Fighter",
+			"classSource": "DANDw:SF",
+			"subclassShortName": "Royal",
+			"subclassSource": "DANDw:SF",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"{@i 20th-level Royal feature}",
+				"At 20th level, as a full round action, you may charge up and release a massive self sacrificing blast of ki from your body. Every creature in a 240 feet + 20 feet for every point of ki radius takes the amount of ki you have remaining x 8d20 damage. Creatures can not have immunity, resistance, or vulnerability to this damage. After this feature is used, you die instantly and your form crumples to ash. You may only be revived using True Resurrection or a Wish spell."
+			]
+		},
+	],
+}
